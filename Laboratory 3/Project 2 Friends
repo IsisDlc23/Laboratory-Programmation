@@ -1,0 +1,10 @@
+amigos = []
+ 
+for i in range(5):
+    nombre = input("Nombre de mis amigos " + str(i + 1) + ": ")
+    amigos.append(nombre)
+ 
+print()
+print("Tus amigos son:")
+for i in range(len(amigos)):
+    print(i + 1, "-", amigos[i])

@@ -1,0 +1,11 @@
+
+import random
+numero= random.randint(1,23)
+print("El juego es adivinar un numero del 1 al 23")
+adivinar = int(input("adivina un número del 1 al 23:"))
+if adivinar != numero:
+    print("No adivinaste") 
+    adivinar = int(input("Intenta denuevo"))
+    print("Correcto adivinaste el número.")
+
+    

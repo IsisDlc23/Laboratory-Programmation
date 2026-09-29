@@ -1,0 +1,19 @@
+numeros = []
+ 
+cantidad = int(input("Cuantos numeros quieres  ingresar? "))
+for i in range(cantidad):
+    n = int(input("Numero " + str(i + 1) + ": "))
+    numeros.append(n)
+ 
+mayor = numeros[0]
+menor = numeros[0]
+ 
+for n in numeros:
+    if n > mayor:
+        mayor = n
+    if n < menor:
+        menor = n
+ 
+print("Los numeros son:", numeros)
+print("El mayor es:", mayor)
+print("El menor es:", menor)

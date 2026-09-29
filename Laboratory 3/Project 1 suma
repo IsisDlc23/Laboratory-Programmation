@@ -1,0 +1,13 @@
+
+def sumar(a, b):
+    return a + b
+ 
+num1 = float(input("Primer numero: "))
+
+num2 = float(input("Segundo numero: "))
+ 
+resultado = sumar(num1, num2)
+print("La suma es:", resultado)
+
+print("Y 10 + 5 es:", sumar(10, 5))
+ 
